@@ -1,0 +1,11 @@
+{
+  "name": { "message": "Easy Bookmark Select" },
+  "description": { "message": "ブックマークを、サイドパネルでドラッグして並べ替えられます。フォルダへの出し入れもドラッグで。" },
+  "hint": { "message": "ドラッグで並べ替え。フォルダの上に落とすと中へ入ります。" },
+  "bar": { "message": "ブックマークバー" },
+  "other": { "message": "その他のブックマーク" },
+  "mobile": { "message": "モバイルのブックマーク" },
+  "up": { "message": "上へ" },
+  "empty": { "message": "このフォルダは空です。" },
+  "folder": { "message": "フォルダ" }
+}

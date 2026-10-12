@@ -1,0 +1,11 @@
+{
+  "name": { "message": "Easy Bookmark Select" },
+  "description": { "message": "Reorder your bookmarks by dragging them in the side panel, and drag them into folders." },
+  "hint": { "message": "Drag to reorder. Drop on a folder to move it inside." },
+  "bar": { "message": "Bookmarks bar" },
+  "other": { "message": "Other bookmarks" },
+  "mobile": { "message": "Mobile bookmarks" },
+  "up": { "message": "Up" },
+  "empty": { "message": "This folder is empty." },
+  "folder": { "message": "Folder" }
+}

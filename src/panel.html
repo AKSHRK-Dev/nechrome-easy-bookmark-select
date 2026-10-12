@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><link rel="stylesheet" href="panel.css">
+<style>
+  .bar { display: flex; gap: 6px; align-items: center; padding: 8px 14px; border-bottom: 1px solid var(--line); }
+  .bar select { flex: 1; font: inherit; color: inherit; background: var(--soft); border: 1px solid var(--line); border-radius: 6px; padding: 5px 6px; }
+  .crumbs { padding: 6px 14px; color: var(--muted); font-size: 12px; }
+  .crumbs button { padding: 2px 6px; font-size: 12px; }
+  ul { list-style: none; margin: 0; padding: 4px 8px 12px; }
+  li { display: flex; align-items: center; gap: 8px; padding: 6px 8px; border-radius: 6px; cursor: grab; border: 1px solid transparent; user-select: none; }
+  li:hover { background: var(--soft); }
+  li img, li .fold { width: 16px; height: 16px; flex: none; }
+  li .fold { display: grid; place-items: center; color: var(--muted); }
+  li .title { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  li.dragging { opacity: .4; }
+  li.before { box-shadow: inset 0 2px 0 var(--accent); }
+  li.after { box-shadow: inset 0 -2px 0 var(--accent); }
+  li.into { border-color: var(--accent); background: var(--soft); }
+  .empty { padding: 16px 14px; color: var(--muted); }
+</style></head>
+<body>
+  <header><img src="icons/32.png" alt=""><h1 data-i18n="name"></h1></header>
+  <div class="bar"><select id="root"></select></div>
+  <div class="crumbs" id="crumbs"></div>
+  <p class="note" style="padding:0 14px" data-i18n="hint"></p>
+  <ul id="list"></ul>
+  <footer>Developed by <a href="https://group.ashikanw.com/" target="_blank">ASHIKA Group</a></footer>
+  <script src="panel.js"></script>
+</body>
+</html>
